@@ -1,4 +1,4 @@
-const API_URL = "https://student-info-hoj2.onrender.com/students"; // We'll update this URL later
+const API_URL = "https://student-info-839m.onrender.com/students"; // We'll update this URL later
 
 // Elements
 const studentForm = document.getElementById("student-form");
