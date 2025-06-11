@@ -56,6 +56,7 @@ studentForm.onsubmit = function (e) {
     fetch(`${API_URL}/${id}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
+      mode: "cors",
       body: JSON.stringify({ name, RegNumber }),
     })
       .then((res) => res.json())
@@ -69,6 +70,7 @@ studentForm.onsubmit = function (e) {
     fetch(API_URL, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
+      mode: "cors",
       body: JSON.stringify({ name, RegNumber }),
     })
       .then((res) => res.json())
